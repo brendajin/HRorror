@@ -1,0 +1,7 @@
+{
+  "name": "hrorror",
+  "root": "./public",
+  "clean_urls": true,
+  "cache_control": {},
+  "routes": {}
+}
