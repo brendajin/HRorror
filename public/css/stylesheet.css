@@ -33,12 +33,39 @@ header {
 	padding-bottom: 30px;
 }
 
+#messagesDiv {
+	width:80%;
+	margin: 0 auto;
+}
+
 .sticky {
 	background-color: rgb(255,240,70);
 	height: 200px;
-	padding: 10px;
-	width: 200px;
+	padding: 1%;
+	width: 20%;
 	display: block;
 	float: left;
-	margin: 10px;
+	margin: 1.5%;
+}
+
+@media (max-width: 720px) and (min-width: 481px) {
+	#messagesDiv {
+		width: 90%;
+	}
+
+	.sticky {
+		width: 46%;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 480px) {
+	#messagesDiv {
+		width: 100%;
+	}
+
+	.sticky {
+		width: 94%;
+		margin: 2%;
+	}
 }
