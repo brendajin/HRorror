@@ -1,15 +1,3 @@
-<html>
-<head>
-  <script src="https://cdn.firebase.com/v0/firebase.js"></script>
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-<div id='messagesDiv'></div>
-<input type='text' id='nameInput' placeholder='Name'>
-<input type='text' id='messageInput' placeholder='Message...'>
-<script>
-
   // Get a reference to the root of the chat data.
   var messagesRef = new Firebase('https://burning-fire-1978.firebaseio.com:443/');
 
@@ -30,6 +18,3 @@
       .text(message.name+': ')).appendTo($('#messagesDiv'));
     $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
   });
-</script>
-</body>
-</html>
