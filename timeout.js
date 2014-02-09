@@ -11,5 +11,5 @@ exports.init = function() {
 
 	setInterval(function() {
 		myMessages.set({name:name, text:text, time:timeNow})
-	}, 20*1000)
+	}, 10*1000)
 };
