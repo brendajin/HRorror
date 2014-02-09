@@ -3,3 +3,7 @@ body {
 	background-repeat:repeat;
 	background-attachment: fixed;
 }
+
+h1 {
+	text-align:center;
+}
