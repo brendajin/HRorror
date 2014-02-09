@@ -7,4 +7,4 @@ Share your HRorriffic stories with us. Unlike your HRorrible past experiences, t
 
 [See the project live](http://ss14-team-403.divshot.io/)
 
-![Screenshot](/public/img/HRorror_desktop.png "HRorror Screenshot")
+![Screenshot](https://raw2.github.com/brendajin/HRorror/master/public/img/HRorror_desktop.jpg "HRorror Screenshot")
