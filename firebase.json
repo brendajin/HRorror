@@ -1,0 +1,5 @@
+{
+  "firebase": "burning-fire-1978",
+  "public": "public",
+  "rules": "config/rules.json"
+}
