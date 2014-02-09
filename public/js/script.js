@@ -52,7 +52,14 @@ var myTimeout = function() {
 messagesRef.limit(10).on('child_added', render);
 
 messagesRef.on('child_removed', function(snapshot) {
-  var message = snapshot.val();
-  $('#'+message.time).remove();
+  var message = snapshot.val(),
+      myNode = $('#'+message.time);
+
+      myNode.css('opacity',0);
+
+  setTimeout(function() {
+    myNode.remove();
+  }, 1000)
+  
 })
 setInterval(myTimeout, 1000)
