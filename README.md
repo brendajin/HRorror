@@ -1,17 +1,6 @@
 HRorror
 =========
 
-Simple chat seed application used by [Firebase Tools](https://github.com/firebase/firebase-tools)
-to bootstrap a project.
+We all have them. Human Resources horror stories. Share your HRorriffic stories with us! Users can post their stories on the board below. Unlike your HRorrible past experiences, these notes will disappear after 30 seconds!
 
-## Getting Started
-
-Once you've used the `firebase bootstrap` command to initialize your project,
-you can run it locally from the `public` directory, using a command like
-
-    python -m SimpleHTTPServer
-
-and deploy it to your firebaseapp.com domain using this command from the
-project's root directory
-
-    firebase deploy
+[See the project live](http://burning-fire-1978.firebaseapp.com/)
