@@ -4,9 +4,10 @@
   // When the user presses enter on the message input, write the message to firebase.
   $('#messageInput').keypress(function (e) {
     if (e.keyCode == 13) {
-      var name = $('#nameInput').val();
-      var text = $('#messageInput').val();
-      messagesRef.push({name:name, text:text});
+      var 	name = $('#nameInput').val(),
+      		text = $('#messageInput').val(),
+      		timeNow = (new Date().getTime());
+      messagesRef.push({name:name, text:text, time:timeNow});
       $('#messageInput').val('');
     }
   });
@@ -14,7 +15,8 @@
   // Add a callback that is triggered for each chat message.
   messagesRef.limit(10).on('child_added', function (snapshot) {
     var message = snapshot.val();
-    $('<div/>').text(message.text).prepend($('<em/>')
+    $('<div class="sticky"/>').text(message.text).prepend($('<span/>')
       .text(message.name+': ')).appendTo($('#messagesDiv'));
+    console.log(message.time)
     $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
   });
