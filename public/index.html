@@ -10,6 +10,11 @@
 <body>
 	<header>
 	    <h1>HRorror</h1>
+	    <div id="form">
+		    <label>HRorror Story:</label>
+			<input type="text" id='nameInput' placeholder='@myHandle' name="nameInput">
+			<input type="text" id='messageInput' placeholder='let it all hang out' maxlength="140" name="messageInput"><span class="counter"></span>/140
+		</div>
 	    <p>We all have them. Human Resources horror stories. Share your HRorriffic stories with us! Users can post their stories on the board below. Unlike your HRorrible past experiences, these notes will disappear after 30 seconds!</p>
   	</header>
 
@@ -21,9 +26,7 @@
 
 	<div id='messagesDiv'></div>
 
-	<label>HRorror Story:</label>
-	<input type="text" id='nameInput' placeholder='@myHandle' name="nameInput">
-	<input type="text" id='messageInput' placeholder='let it all hang out' maxlength="140" name="messageInput"><span class="counter"></span>/140
+	
 	<script src="js/script.js"></script>
 	<script type="text/javascript" src="js/jquery.charactercounter.js"></script>
 	<script>
