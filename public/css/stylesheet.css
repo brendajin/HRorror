@@ -29,8 +29,14 @@ header {
 #form {
 	display: block;
 	margin: -40px auto 0 auto;
-	max-width: 450px;
+	max-width: 520px;
 	padding-bottom: 30px;
+}
+input {
+	height: 30px;
+	font-size: 17px;
+	border-radius: 25px;
+	border: 1px solid rgb(217, 217, 217);
 }
 
 #messagesDiv {
