@@ -13,10 +13,9 @@ h1 {
 }
 
 p {
-	text-align: center;
+	text-align: left;
   	font-size: 15px;
-  	font-style: bold;
-  	
+  	font-weight: 900;
 }
 
 header {
@@ -29,8 +28,15 @@ header {
 #form {
 	display: block;
 	margin: -40px auto 0 auto;
-	max-width: 450px;
+	max-width: 535px;
 	padding-bottom: 30px;
+}
+input {
+	height: 30px;
+	font-size: 17px;
+	border-radius: 25px;
+	border: 1px solid rgb(217, 217, 217);
+	padding-left: 10px;
 }
 
 #messagesDiv {
@@ -40,18 +46,59 @@ header {
 
 .sticky {
 	background-color: rgb(255,240,70);
-	height: 200px;
+	min-height: 200px;
 	padding: 1%;
 	width: 20%;
 	display: block;
+	position: relative;
 	float: left;
 	margin: 1.5%;
-	-webkit-transition: all 500ms ease-out;
-	-moz-transition: all 500ms ease-out;
-	-ms-transition: all 500ms ease-out;
-	-o-transition: all 500ms ease-out;
-	transition: all 500ms ease-out;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1 ease-out;
+	-ms-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
+
+.sticky:before, .sticky:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width:300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+.sticky:after {
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
+}
+
+
+.disappear {
+	opacity: 0;
+	background-color: pink;
+	color: white;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	box-shadow: 0;
+}
+
 
 @media (max-width: 720px) and (min-width: 481px) {
 	#messagesDiv {
