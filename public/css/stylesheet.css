@@ -58,34 +58,6 @@ input {
 	box-shadow: 0 4px 10px #777;
 }
 
-/*.sticky:before, .sticky:after {
-	z-index: -1;
-	position: absolute;
-	content: "";
-	bottom: 15px;
-	left: 10px;
-	width: 50%;
-	top: 80%;
-	max-width:300px;
-	background: #777;
-	
-	-webkit-transform: rotate(-3deg);
-	-moz-transform: rotate(-3deg);
-	-o-transform: rotate(-3deg);
-	-ms-transform: rotate(-3deg);
-	transform: rotate(-3deg);
-}
-.sticky:after {
-	/*-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	transform: rotate(3deg);
-	right: 10px;
-	left: auto;
-}
-*/
-
 .disappear {
 	opacity: 0;
 	background-color: pink;
@@ -96,13 +68,6 @@ input {
 	-o-transition: all 1s ease-out;
 	transition: all 1s ease-out;
 }
-
-/*.disappear.sticky:before, .disappear.sticky:after {
-	-webkit-box-shadow: 0;
-	-moz-box-shadow: 0;
-	box-shadow: 0;
-}*/
-
 
 @media (max-width: 720px) and (min-width: 481px) {
 	#messagesDiv {
