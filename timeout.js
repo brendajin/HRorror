@@ -5,16 +5,16 @@ var Firebase = require('firebase'),
 
 var fakeMessages = [
     {
-        "text": "I came back to the office from getting a coffee and my HR person called me into the office.  I saw a water bottle and a box of tissues on the table.  She told me I was getting fired.  She handed me a tissue and passed me the bottle of water.  I asked her why and she said you just don't know how to do this job.  If I were you I would be pulling my hair out.  The job you do sucks.  I was like dafuq!!!!! So evil",
-        "name": "DeeDee Hernandez"
+        "text": "My HR person said \"you just don't know how to do this job.  If I were you I would be pulling my hair out.\"",
+        "name": "Buttley"
     },
     {
-        "text": "The director of Human Resources told everyone in the office about my Tinder dating.",
+        "text": "The director of HR told everyone in the office about my Tinder dating.",
         "name": "Brian Fido"
     },
     {
         "text": "I know this person who made out with a midget",
-        "name": "jj jones"
+        "name": "joans"
     },
     {
         "text": "i'm so chewy and delish",
@@ -25,7 +25,7 @@ var fakeMessages = [
         "name": "Drake"
     },
      {
-        "text": "Business analyst quit at beginning of the budget process.  No going away party for biz analyst, she only gave two weeks.  It was sad",
+        "text": "No going away party for bus dev, she only gave two weeks.  It was sad",
         "name": "Ben Wexley"
     },
     {
@@ -38,15 +38,15 @@ var fakeMessages = [
     },
      {
         "text": "14 emails in the span of 40 minutes?! WTF",
-        "name": "Emilie"
+        "name": "Emma"
     },
      {
-        "text": "Say they will pay for continuing education and then DENY you when you submit the proposal.",
-        "name": "Idelia Buttley"
+        "text": "Say they will pay for continuing education and then DENY you when you preggers.",
+        "name": "Ida B"
     },
     {
         "text": "I don't even know how I got this job!",
-        "name": "CEO of non-profit"
+        "name": "CEO"
     },
     {
         "text": "Retirement options not documented in HR packet",
