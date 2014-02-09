@@ -7,4 +7,5 @@ exports.init = function() {
 	myRootRef.on('child_added', function(snapshot) {
 		console.log(snapshot)
 	});	
+
 }
