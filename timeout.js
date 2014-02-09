@@ -61,7 +61,7 @@ exports.init = function() {
 		name = 'buddy',
 		text = 'this is a test',
 		timeNow = (new Date().getTime());
-		i = Math.floor(Math.random() * (fakeMessages.length + 1));
+		i = Math.floor(Math.random() * (fakeMessages.length));
 
 		myMessages.set({
 			name:fakeMessages[i].name,
