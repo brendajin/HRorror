@@ -29,10 +29,6 @@ var fakeMessages = [
         "name": "Ben Wexley"
     },
     {
-        "text": "All she wanna do is get naked.",
-        "name": "Sage the Gemini"
-    },
-    {
         "text": "Working at non-profits sux",
         "name": "Corrina Real"
     },
