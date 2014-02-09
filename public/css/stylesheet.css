@@ -28,7 +28,7 @@ header {
 #form {
 	display: block;
 	margin: -40px auto 0 auto;
-	max-width: 520px;
+	max-width: 535px;
 	padding-bottom: 30px;
 }
 input {
@@ -36,6 +36,7 @@ input {
 	font-size: 17px;
 	border-radius: 25px;
 	border: 1px solid rgb(217, 217, 217);
+	padding-left: 10px;
 }
 
 #messagesDiv {
@@ -89,10 +90,13 @@ input {
 }
 
 
-.sticky:hover {
-  opacity: 0;
-  background-color: pink;
-  color: white;
+.disappear {
+	opacity: 0;
+	background-color: pink;
+	color: white;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	box-shadow: 0;
 }
 
 
