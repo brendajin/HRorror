@@ -1,11 +1,8 @@
 var express = require('express'),
 	app = express(),
-	Firebase = require('firebase');
+	timeout = require('./timeout');
 
-var myRootRef = new Firebase('https://burning-fire-1978.firebaseio.com:443/');
-myRootRef.on('child_added', function(snapshot) {
-  console.log(snapshot)
-});
+timeout.init();
 
 app.use(express.static(__dirname + '/public'));
 
