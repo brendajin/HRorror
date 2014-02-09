@@ -54,7 +54,7 @@ messagesRef.on('child_removed', function(snapshot) {
   var message = snapshot.val(),
       myNode = $('#'+message.time);
 
-      myNode.css('opacity',0);
+      myNode.addClass('disappear');
 
   setTimeout(function() {
     myNode.remove();
