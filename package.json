@@ -1,6 +1,7 @@
 {
-  "name": "hello-world",
-  "description": "hello world test app",
+  "name": "HRorror",
+  "version": "0.0.1",
+  "description": "ventilate and delete",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
