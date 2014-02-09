@@ -1,5 +1,11 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+	app = express(),
+	Firebase = require('firebase');
+
+var myRootRef = new Firebase('https://burning-fire-1978.firebaseio.com:443/');
+myRootRef.on('child_added', function(snapshot) {
+  console.log(snapshot)
+});
 
 app.use(express.static(__dirname + '/public'));
 
