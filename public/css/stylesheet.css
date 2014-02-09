@@ -13,10 +13,9 @@ h1 {
 }
 
 p {
-	text-align: center;
+	text-align: left;
   	font-size: 15px;
-  	font-style: bold;
-  	
+  	font-weight: 900;
 }
 
 header {
@@ -46,12 +45,19 @@ header {
 	display: block;
 	float: left;
 	margin: 1.5%;
-	-webkit-transition: all 500ms ease-out;
-	-moz-transition: all 500ms ease-out;
-	-ms-transition: all 500ms ease-out;
-	-o-transition: all 500ms ease-out;
-	transition: all 500ms ease-out;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1 ease-out;
+	-ms-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
+
+.sticky:hover {
+  opacity: 0;
+  background-color: pink;
+  color: white;
+}
+
 
 @media (max-width: 720px) and (min-width: 481px) {
 	#messagesDiv {
